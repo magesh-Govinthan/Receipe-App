@@ -128,7 +128,7 @@ useEffect(()=>{
         </select>
         </div>
        
-        <div className='star'><FaStar color='orangered' /><h4>Favorites</h4></div>
+       
          </div>
        
       

@@ -5,10 +5,11 @@
   display: flex;
   align-items: center;
   justify-content:space-around;
-  gap: 10px;
+ 
   font-size: large;
   background-color: whitesmoke;
-  margin:auto;
+  width:1400px;
+
  
 }
 .search-container {
