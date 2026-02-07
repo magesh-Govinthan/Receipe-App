@@ -14,7 +14,7 @@ function Home({product}) {
   }
  
   return (
-    <div style={{background:'whitesmoke',padding:"10px",width:"1000px"}}>
+    <div style={{background:'whitesmoke',padding:"10px",width:"1300px"}}>
 
       <h1 style={{fontSize:"50px"}}>List of Receipe</h1>
 
