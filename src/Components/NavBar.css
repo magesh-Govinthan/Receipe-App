@@ -8,14 +8,14 @@
  
   font-size: large;
   background-color: whitesmoke;
-  width:1400px;
+  width:1300px;
 
  
 }
 .search-container {
   display: flex;
   height: 60px;
-  width: 800px;
+  width: 700px;
   align-items: center;
   justify-content: center;
 }
