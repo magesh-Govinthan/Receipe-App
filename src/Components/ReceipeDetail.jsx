@@ -42,8 +42,8 @@ function ReceipeDetail() {
             {
               ingredients.map((item, index) => (
                 <div key={index} className="cate1">
-                  <h4>{item.ingredient}</h4>
-                  <h4>{item.measure}</h4>
+                  <h4>{item.ingredient}:{item.measure}</h4>
+                 
                 </div>
               ))
             }
