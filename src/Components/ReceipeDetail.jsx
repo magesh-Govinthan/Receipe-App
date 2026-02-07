@@ -22,7 +22,7 @@ function ReceipeDetail() {
   console.log(selectedReceipe);
   return (
     selectedReceipe &&
-    <div style={{ background: "whitesmoke", padding: "10px",width:"1300px" }}>
+    <div style={{ background: "whitesmoke", padding: "10px"}}>
       <div>
         <h1 style={{ fontSize: "50px" }}>{selectedReceipe.strMeal}</h1>
         <p className="para1">

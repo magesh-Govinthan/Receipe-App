@@ -108,7 +108,7 @@ display: grid;
     }
     .detail{
     display: grid;
-
+grid-template-columns: 1fr;
   height:600px;
   width:80%;
   row-gap: 10px;
