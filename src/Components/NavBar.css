@@ -6,16 +6,16 @@
   align-items: center;
   justify-content:space-around;
  
-  font-size: large;
+  font-size: medium;
   background-color: whitesmoke;
-  width:1300px;
+  width:1000px;
 
  
 }
 .search-container {
   display: flex;
   height: 60px;
-  width: 700px;
+  width: 500px;
   align-items: center;
   justify-content: center;
 }
@@ -23,12 +23,12 @@
   background-color: white;
   box-shadow: 2px 2px 5px 4px lightgray;
   height: 50px;
-  width: 700px;
+  width: 500px;
   border: none;
   border-radius: 25px;
   box-sizing: border-box;
   padding-left: 10px;
-  font-size: large;
+  font-size: medium;
   
 
 }
@@ -43,12 +43,12 @@ input:focus {
 }
 .search-button{
     height: 50px;
-    width:90px;
+    width:70px;
     padding:10px;
     border: none;
     background-color:orangered;
     color:white;
-    font-size: large;
+    font-size:medium;
      border-radius: 25px;
      box-shadow: 2px 2px 5px 4px lightgray;
      margin-left:-30px;
@@ -65,7 +65,7 @@ input:focus {
 .select-parent{
    
     height:80px;
-    width:500px;
+    width:400px;
     display: flex;
      justify-content: center;
      align-items: center;
@@ -74,9 +74,9 @@ input:focus {
 }
 .select-parent select{
     height:50px;
-    width:150px;
+    width:100px;
     padding:10px;
-    font-size: large;
+    font-size: medium;
     background-color:white;
     border-radius: 10px;
      box-shadow: 2px 2px 5px 4px lightgray;
@@ -93,18 +93,7 @@ input:focus {
     background-color:#222;
   }
 } */
-.star{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    gap:4px;
-    height:50px;
-    width:150px;
-    padding:10px;
-    font-size:x-large;
-    color:black;
 
-}
 @media only screen and (max-width: 475px){
   .nav-parent {
   height: 250px;
