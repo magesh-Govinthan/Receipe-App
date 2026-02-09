@@ -31,7 +31,7 @@
   object-fit: cover;
   border-radius: 10px;
   }
-  @media only screen and (max-width: 275px) {
+  @media only screen and (max-width: 412px) {
      .parent{
   display: grid;
   grid-template-columns: 1fr;

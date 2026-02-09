@@ -17,10 +17,13 @@
   margin-left:10px;
     }
     .catandrec{
+        width:300px ;
         display: flex;
-        align-items: center;
-        justify-content: left;
+        align-items:center;
+        justify-content:left;
         gap: 10px;
+       
+        margin-left:0px;
     }
     .imagerec{
         margin:10px;
@@ -38,7 +41,7 @@
  
     }
     .detail-cate{
-         height:600px;
+         
   width: 600px;
 display: grid;
   column-gap: 10px;
@@ -79,7 +82,7 @@ display: grid;
         text-decoration: none;
         color: black;
     }
-    @media  only screen and (max-width:275px) {
+    @media  only screen and (max-width:412px) {
       .para1{
     font-size:medium;
     padding:10px;
@@ -109,7 +112,6 @@ display: grid;
     .detail{
     display: grid;
 grid-template-columns: 1fr;
-  height:600px;
   width:80%;
   row-gap: 10px;
   margin-top: 50px;
@@ -119,8 +121,7 @@ grid-template-columns: 1fr;
  
     }
     .detail-cate{
-    height:600px;
-  width: 80%;
+    width: 100%;
 display: grid;
   column-gap: 10px;
   row-gap:20px;
@@ -130,7 +131,7 @@ display: grid;
     }
     .cate1{
        height:60px;
-      width:70%;
+      width:100%;
      background-color:white;
      font-size:medium;
      display: flex;
@@ -144,7 +145,7 @@ display: grid;
     }
     .cate2{
       height:60px;
-      width:70%;
+      width:100%;
      background-color:white;
      font-size:medium;
      display: flex;

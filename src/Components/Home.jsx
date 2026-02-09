@@ -16,7 +16,7 @@ function Home({product}) {
   return (
     <div style={{background:'whitesmoke',padding:"10px"}}>
 
-      <h1 style={{fontSize:"50px"}}>List of Receipe</h1>
+      <h1 style={{fontSize:"50px"}}>List of Receipes</h1>
 
       <div className='parent'>
         
