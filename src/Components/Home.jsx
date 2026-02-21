@@ -10,7 +10,7 @@ function Home({product}) {
   const { addReceipeToDetails } = useContext(ReceipeContext);
   const addReceipeDetails = (receipe) => {
     addReceipeToDetails(receipe);
-    navigate(`/recipe/${receipe.idMeal}`);
+    navigate(`/receipe/${receipe.idMeal}`);
   }
  
   return (

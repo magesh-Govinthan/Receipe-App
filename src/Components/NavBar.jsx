@@ -113,7 +113,7 @@ function NavBar() {
           <input
             type="text"
             value={searchinput}
-            placeholder="What do you want to cook receipe?"
+            placeholder="What do you want to cook recipe?"
             onChange={(e) => handleChange(e)}
           />
           <button
