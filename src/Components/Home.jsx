@@ -10,13 +10,13 @@ function Home({product}) {
   const { addReceipeToDetails } = useContext(ReceipeContext);
   const addReceipeDetails = (receipe) => {
     addReceipeToDetails(receipe);
-    navigate(`/receipe/${receipe.idMeal}`);
+    navigate(`/recipe/${receipe.idMeal}`);
   }
  
   return (
     <div style={{background:'whitesmoke',padding:"10px"}}>
 
-      <h1 style={{fontSize:"50px"}}>List of Receipes</h1>
+      <h1 style={{fontSize:"50px"}}>List of Recipes</h1>
 
       <div className='parent'>
         
